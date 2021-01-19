@@ -36,3 +36,86 @@
     transform: rotate(360deg);
   }
 }
+
+/* 
+ * Titles on pages 
+ */
+.title {
+  font-size: 75px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 2%;
+}
+
+/*
+ * For block texts on a page
+ */
+ .text {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/*
+ * Margined text
+ */
+
+ .margin-text {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 20%;
+  margin-right: 20%;
+ }
+/* 
+ * Sub titles (specifically for pillars on home page)
+ */
+.subtitle {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 2%;
+  color: #44afd6;
+}
+
+/* 
+ * For pillar icons on home page
+*/
+.icon {
+  text-align: center; 
+  margin-top: 20px; 
+  margin-bottom: 20px;
+}
+
+.icon-hover:hover {
+  fill: grey;
+}
+
+/* 
+ * Padding added to encapsulating containers. This is to fix a weird bug where 
+ * without padding, a blank line is added at the bottom of the container. 
+*/
+.padding {
+  padding-bottom: 2%;
+}
+
+.spreadsheet-container {
+  position: relative;
+  overflow: hidden;
+  width: 85%;
+  padding-top: 56.25%;
+  margin: auto;
+}
+
+.spreadsheet {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+

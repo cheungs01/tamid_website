@@ -1,12 +1,40 @@
 import React from 'react'
+import Container from 'react-bootstrap/Container'; 
+import './App.css';
 
 export const Education = () => (
-    <div>
-        <h2>Tamid@Brown</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Venenatis a condimentum 
-            vitae sapien pellentesque habitant morbi tristique. Diam maecenas sed 
-            enim ut sem viverra. Sit amet est placerat in egestas erat imperdiet 
-            sed euismod. In aliquam sem fringilla ut morbi tincidunt augue interdum.</p>
-    </div>
+    <Container fluid>
+        <div className="title">Education Section and Materials</div>
+        <div className="text">
+            <p>
+                Educational materials will be added below as they become 
+                available. 
+            </p>
+            <br/>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        
+    </Container>
 )
