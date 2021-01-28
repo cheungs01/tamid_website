@@ -25,7 +25,7 @@ const Styles = styled.div`
     .nav-link {
         color: #bbb;
         &:hover {
-            color: white;
+            color: #44afd6;
         }
     }
 

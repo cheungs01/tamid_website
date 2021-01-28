@@ -10,6 +10,7 @@ import ben from './assets/ben_headshot.jpg';
 export const Team = () => (
     <Container fluid>
         <div className='title'>Our Team</div>
+        <LineBreak/>
         <div className='subtitle'>Executive Board</div>
         <br/>
         <div class="grid">
