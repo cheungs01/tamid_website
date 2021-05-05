@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; 
 import { Home } from './Home'; 
-import { Team } from './Team'; 
+import { Eboard } from './Eboard'; 
+import { Alumni } from './Alumni';
 import { Fund } from './Fund'; 
 import { Consulting } from './Consulting'; 
 import { Faq } from './Faq'; 
@@ -20,7 +21,8 @@ function App() {
       <Router>  
           <Switch>
             <Route exact path='/' component={Home} />
-              <Route exact path='/team' component={Team} />
+              <Route exact path='/eboard' component={Eboard} />
+              <Route exact path='/alumni' component={Alumni} />
               <Route exact path='/fund' component={Fund} />
               <Route exact path='/consulting' component={Consulting} />
               <Route exact path='/faq' component={Faq} />

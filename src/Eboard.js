@@ -1,17 +1,17 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container'; 
 import './App.css';
-import { Profile } from './components/team/Profile';
+import { Profile } from './components/team/TeamProfile';
 import { LineBreak } from './components/Line';
 import steven from './assets/steven_headshot.jpg';
 import matthew from './assets/matthew_headshot.jpg';
-import ben from './assets/ben_headshot.jpg';
+import ben from './assets/ben_headshot2.jpg';
 import julian from './assets/julian_headshot.jpeg';
 import ethan from './assets/ethan_headshot.jpeg';
 import gabriel from './assets/gabriel.JPG';
 import simon from './assets/simon.JPG';
 
-export const Team = () => (
+export const Eboard = () => (
     <Container fluid>
         <div className='title'>Our Team</div>
         <LineBreak/>
@@ -32,7 +32,7 @@ export const Team = () => (
                 pitches and facilitating education sessions while in Tamid." img={ethan}/>
             </div>
             <div>
-                <Profile name="Julian Croonenberghs" year="'22" pos="Co-Director of The Fund "
+                <Profile name="Julian Croonenberghs" year="'22" pos="Co-Director of the Fund "
                 bio="I am a Junior from Brussels, Belgium, and I joined Tamid in the 
                 Spring of my Freshman year.  After deciding to concentrate in APMA-CS, 
                 joining the Tamid Fund was an excellent way for me to continue learning 
@@ -46,13 +46,13 @@ export const Team = () => (
                 learned during my time in Tamid." img={julian}/>
             </div>
             <div>
-                <Profile name="Simon Giordano" year="'22" pos="Fund Manager"
+                <Profile name="Simon Giordano" year="'22.5" pos="Co-Director of the Fund"
                 bio="I'm a 22.5 grad from Sydney, Australia. I joined TAMID in 2019, 
                 at which point I knew very little about finance. Thanks to TAMID 
                 and my own curiosity, I've since learned how to run my own portfolio, 
                 worked for a hedge fund in Sydney, written finance related op-eds for 
                 BPR, become a fund manager at TAMID, and landed an Investment Banking 
-                job in New York. In my spare time I love to backpack around the world. " img={simon}/>
+                job in New York. In my spare time I love to backpack around the world." img={simon}/>
             </div>
             <div>
                 <Profile name="Gabe Zuckerman" year="'22" pos="Director of Recruitment"

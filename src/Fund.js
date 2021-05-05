@@ -27,8 +27,8 @@ export const Fund = () => (
 
         <div className='subtitle'>Portfolio</div>
 
-        <div className="spreadsheet-container">
-        <iframe className="spreadsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQSHoGVRW_Pamc1X8X5GzvL1jo0h8WrbyG9ao3GyI7481uk1iMTuZ02sEpib7WkJafdPmFJ-bVc9dlH/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        <div>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS2Khrszk58vM3CtDi43Va3AI8yZbmZkar-nb2kziLuDcjVmUT6fJ4jK_XjPI7XOSTlgKxfFkx1zSkP/pubhtml?widget=true&amp;headers=false" height="1380" width="640"></iframe>
         </div>
         
         <br/>

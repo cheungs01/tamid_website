@@ -45,12 +45,20 @@ export class NavigationBar extends React.Component {
       this.state = { isOpen: false }
     }
   
-    handleOpen = () => {
-      this.setState({ isOpen: true })
+    handleProgramOpen = () => {
+      this.setState({ programOpen: true })
     }
   
-    handleClose = () => {
-       this.setState({ isOpen: false })
+    handleProgramClose = () => {
+       this.setState({ programOpen: false })
+    }
+
+    handleTeamOpen = () => {
+        this.setState({ teamOpen: true })
+    }
+
+    handleTeamClose = () => {
+        this.setState({ teamOpen: false })
     }
   
     render() {
@@ -62,11 +70,21 @@ export class NavigationBar extends React.Component {
             <Navbar.Collapse id='basic-navbar-nav'>
                 <Nav className='ml-auto'>
                     <Nav.Item><Nav.Link className="link" href='/'>Home</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link className="link" href='/team'>Team</Nav.Link></Nav.Item>
                     <NavDropdown
-                        onMouseEnter = { this.handleOpen }
-                        onMouseLeave = { this.handleClose }
-                        show={ this.state.isOpen }
+                        onMouseEnter = { this.handleTeamOpen }
+                        onMouseLeave = { this.handleTeamClose }
+                        show={ this.state.teamOpen }
+                        noCaret
+                        id="dropdown"
+                        title="Team"
+                    >
+                        <NavDropdown.Item href='/eboard'>Executive Board</NavDropdown.Item>
+                        <NavDropdown.Item href='/alumni'>Alumni</NavDropdown.Item>
+                    </NavDropdown>
+                    <NavDropdown
+                        onMouseEnter = { this.handleProgramOpen }
+                        onMouseLeave = { this.handleProgramClose }
+                        show={ this.state.programOpen }
                         noCaret
                         id="dropdown"
                         title="Programs"

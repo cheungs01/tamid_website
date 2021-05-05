@@ -48,8 +48,8 @@ export const Footer = () => (
           {/* Column2 */}
           <div className="col-sm-2">
               <ui className="list-unstyled">
-                <li><Nav.Item><Nav.Link href='/'>Home</Nav.Link></Nav.Item></li>
-                <li><Nav.Item><Nav.Link href='/team'>Team</Nav.Link></Nav.Item></li>
+                <li><Nav.Item><Nav.Link href='/eboard'>E-Board</Nav.Link></Nav.Item></li>
+                <li><Nav.Item><Nav.Link href='/alumni'>Alumni</Nav.Link></Nav.Item></li>
                 <li><Nav.Item><Nav.Link href='/fund'>Fund</Nav.Link></Nav.Item></li>
               </ui>
           </div>
